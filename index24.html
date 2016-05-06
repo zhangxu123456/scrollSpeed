@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--<script src="Js/jquery.easing.compatibility.js"></script>-->
+    <script src="Js/jQuery.scrollSpeed.js">
+
+    </script>
+    <style>
+        *{ margin: 0; padding: 0;}
+        .ni{ height: 2000px; border: 1px solid red;}
+    </style>
+</head>
+<body>
+    <div class="ni">
+
+    </div>
+   <!-- <script>
+        var zx=$(document).height();
+        var xu=$(window).height();
+        console.log(zx);
+        console.log(xu);
+         $(window).on('mousewheel DOMMouseScroll', function (event) {
+                event = event || window.event;
+                console.log(event.originalEvent.wheelDelta /*originalEvent.*/);  //兼容谷歌和IE
+                 console.log(event.originalEvent.detail); // 兼容火狐
+        })
+    </script>-->
+</body>
+</html>
+<script>
+    jQuery.scrollSpeed(20,1000,'easeOutCubic');
+</script>
